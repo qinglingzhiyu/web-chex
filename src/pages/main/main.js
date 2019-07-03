@@ -3,6 +3,7 @@ import { View, Text, Image } from '@tarojs/components'
 import location from './assets/location.png'
 import message from './assets/message.png'
 import search from './assets/search.png'
+import topBg from './assets/top-bg.png'
 import './main.scss'
 
 class Main extends Component {
