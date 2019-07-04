@@ -3,7 +3,7 @@
  * @Github: https://github.com/qinglingzhiyu
  * @Date: 2019-06-27 11:23:44
  * @LastEditors: terris
- * @LastEditTime: 2019-07-01 16:12:07
+ * @LastEditTime: 2019-07-04 11:03:00
  * @Description: 这是全局配置
  */
 
@@ -34,12 +34,14 @@ class App extends Component {
       "pages/mine/mine",
       "pages/index/index"
     ],
+
     window: {
       backgroundTextStyle: "light",
       navigationBarBackgroundColor: "#fff",
       navigationBarTitleText: "一车独秀",
       navigationBarTextStyle: "black"
     },
+
     tabBar: {
       selectedColor: "#da251d",
       color: "#999999",
@@ -51,18 +53,21 @@ class App extends Component {
           iconPath: "./assets/tab-bar/home@2x.png",
           selectedIconPath: "./assets/tab-bar/home_ed@2x.png"
         },
+
         {
           pagePath: "pages/find/find",
           text: "发现",
           iconPath: "./assets/tab-bar/find@2x.png",
           selectedIconPath: "./assets/tab-bar/find_ed@2x.png"
         },
+
         {
           pagePath: "pages/shop/shop",
           text: "门店",
           iconPath: "./assets/tab-bar/shop@2x.png",
           selectedIconPath: "./assets/tab-bar/shop_ed@2x.png"
         },
+
         {
           pagePath: "pages/mine/mine",
           text: "我的",
@@ -71,17 +76,20 @@ class App extends Component {
         }
       ]
     },
+
     debug: true,
     navigateToMiniProgramAppIdList: [
       "wxc09b6f8459436eb5",
       "wx092776e02ebf899c"
     ],
+
     permission: {
       "scope.userLocation": {
         desc: "你的位置信息将用于展示附近的门店"
       }
-    },
-    // sitemapLocation: "sitemap.json"
+
+      // sitemapLocation: "sitemap.json"
+    }
   };
 
   componentDidMount() {}

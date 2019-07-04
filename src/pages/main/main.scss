@@ -3,7 +3,7 @@
  * @Github: https://github.com/qinglingzhiyu
  * @Date: 2019-06-28 09:28:58
  * @LastEditors: terris
- * @LastEditTime: 2019-07-02 11:31:17
+ * @LastEditTime: 2019-07-04 16:35:19
  * @Description: 这是首页的样式
  */
 
@@ -23,6 +23,7 @@
     font-size: 30px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
 
     &-location-img {
       width: 44px;
@@ -48,6 +49,10 @@
       &-img {
         width: 44px;
         height: 44px;
+      }
+
+      &-text {
+        margin-left: 10px;
       }
     }
 
