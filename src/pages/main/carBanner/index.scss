@@ -1,13 +1,32 @@
+/*
+ * @Author: terris
+ * @Github: https://github.com/qinglingzhiyu
+ * @Date: 2019-07-04 16:44:38
+ * @LastEditors: terris
+ * @LastEditTime: 2019-07-05 11:13:15
+ * @Description: 这是首页car 轮播样式
+ */
+
 .banner {
+  display: flex;
+  align-items: center;
   width: 100%;
-  height: 160px;
+  height: 200px;
 
   &-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    margin: 0 20px;
     padding: 12px 18px;
-    width: 100%;
+    width: 684px;
+    background-color: #fff;
+    box-shadow:0px 10px 32px rgba(193,77,0,0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 
     &-img {
       margin-right: 32px;
@@ -27,6 +46,8 @@
       align-items: flex-start;
 
       &-top {
+        display: flex;
+        align-items: center;
         font-family: PingFang SC;
 
         &-text {
@@ -36,8 +57,8 @@
         }
 
         &-auth {
+          margin-left: 32px;
           padding: 0 18px;
-          height: 32px;
           background: linear-gradient(180deg, rgba(255, 132, 86, 1) 0%, rgba(255, 65, 91, 1) 100%);
           font-size: 20px;
           line-height: 32px;
@@ -51,6 +72,7 @@
       }
 
       &-middle {
+        margin-top: 6px;
         &-title {
           margin-right: 4px;
           padding: 0 14px;
@@ -58,7 +80,6 @@
           background: rgba(254, 247, 244, 1);
           font-size: 24px;
           font-weight: bold;
-          color: rgba(218, 37, 29, 1);
           border-radius: 4px;
           -webkit-border-radius: 4px;
           -moz-border-radius: 4px;
@@ -73,6 +94,7 @@
       }
 
       &-bottom {
+        margin-top: 14px;
         font-size: 20px;
         line-height: 28px;
         color: rgba(102, 102, 102, 1);

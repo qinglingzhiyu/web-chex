@@ -3,12 +3,13 @@
  * @Github: https://github.com/qinglingzhiyu
  * @Date: 2019-06-28 09:28:58
  * @LastEditors: terris
- * @LastEditTime: 2019-07-04 16:35:19
+ * @LastEditTime: 2019-07-05 19:10:08
  * @Description: 这是首页的样式
  */
 
 
 .main {
+  font-family: PingFang SC;
 
   .main_search {
     position: fixed;
@@ -62,4 +63,70 @@
       height: 44px;
     }
   }
+
+  &-topbanner {
+    position: relative;
+    z-index: 1;
+  }
+
+  &-carbanner {
+    position: relative;
+    top: -20rpx;
+    z-index: 2;
+  }
+
+  &-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 32px;
+    width: 100%;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+
+      &-img {
+        width: 84px;
+        height: 84px;
+      }
+
+      &-text {
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 34px;
+        color: rgba(51, 51, 51, 1);
+      }
+    }
+  }
+
+  &-redpack {
+    margin-top: 20px;
+    width: 100%;
+
+    &-img {
+      display: block;
+      margin: 0 auto;
+      width: 688px;
+      height: 144px;
+    }
+  }
+
+  &-handpick {
+    width: 100%;
+    height: 56px;
+    padding: 0 28px;
+
+    &-img {
+      width: 132px;
+      height: 56px;
+    }
+
+    &-swiper {
+
+    }
+  }
+
 }
